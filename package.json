@@ -1,0 +1,18 @@
+{
+  "name": "mood-recipe-finder",
+  "version": "1.0.0",
+  "description": "A mood-based recipe recommendation app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["recipe", "mood", "food"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  }
+}
